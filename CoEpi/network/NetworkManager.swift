@@ -28,8 +28,8 @@ class NetworkManager {
     AF.request("https://coepi.wolk.com:8080/cenkeys",
                method: .post,
                parameters: newCheck,
-               encoder: JSONParameterEncoder.default).response { response in
-      debugPrint(response)
+               encoder: JSONParameterEncoder.default).validate().responseJSON { response in
+      debugPrint("Response: \(response)")
                 
       self.lastSuccessfulExposureCheck = self.currentAttemptedExposureCheck
     }
