@@ -9,9 +9,13 @@
 import Foundation
 import Alamofire
 
-struct ExposureCheck: Encodable {
+struct ExposureCheck: Codable {
     let lastChecked: Date
     //let geoHash: String
+}
+
+struct ExposureResponse: Codable {
+  let cenKey: String
 }
 
 class NetworkManager {
@@ -28,10 +32,19 @@ class NetworkManager {
     AF.request("https://coepi.wolk.com:8080/cenkeys",
                method: .post,
                parameters: newCheck,
-               encoder: JSONParameterEncoder.default).validate().responseJSON { response in
-      debugPrint("Response: \(response)")
-                
-      self.lastSuccessfulExposureCheck = self.currentAttemptedExposureCheck
+               encoder: JSONParameterEncoder.default).validate().responseDecodable
+    {
+      (response: DataResponse<ExposureResponse, AFError>) in
+      
+      switch response.result {
+      case .success(let exposureResponse):
+        print(exposureResponse)
+        self.lastSuccessfulExposureCheck = self.currentAttemptedExposureCheck
+        
+      case .failure(let error):
+          print(error.localizedDescription)
+      }
+
     }
   }
 
