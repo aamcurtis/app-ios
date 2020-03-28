@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CoEpi/network/DateFormatter.swift">
+   </FileRef>
+   <FileRef
       location = "group:CoEpi.xcodeproj">
    </FileRef>
    <FileRef

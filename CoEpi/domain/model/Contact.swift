@@ -1,6 +1,6 @@
 import Foundation
 
-struct Contact {
+struct Contact : Codable {
     let cen: String
     let date: Date
 }
