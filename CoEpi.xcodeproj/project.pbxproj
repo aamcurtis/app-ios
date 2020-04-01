@@ -11,8 +11,8 @@
 		30EF94F8242C47A2007D61C7 /* HealthQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EF94F6242C47A1007D61C7 /* HealthQuizViewController.xib */; };
 		30EF94FB242CFC9F007D61C7 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF94F9242CFC9F007D61C7 /* AlertsViewController.swift */; };
 		30EF94FC242CFC9F007D61C7 /* AlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EF94FA242CFC9F007D61C7 /* AlertsViewController.xib */; };
+		30EF95612434E07B007D61C7 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 30EF95602434E07B007D61C7 /* RxAlamofire */; };
 		4B7FB337242DF0F9002EDE0A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7FB336242DF0F9002EDE0A /* Alamofire */; };
-		4B7FB339242DF767002EDE0A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB338242DF767002EDE0A /* NetworkManager.swift */; };
 		62B9A01A2433D2A200885519 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9A0192433D2A200885519 /* DateFormatter.swift */; };
 		62B9A01F2434036A00885519 /* DebugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486BDD5242BA28C00A63DD5 /* DebugViewModel.swift */; };
 		8486BDC7242B9AC900A63DD5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDC6242B9AC900A63DD5 /* RxSwift */; };
@@ -144,6 +144,7 @@
 				4B7FB337242DF0F9002EDE0A /* Alamofire in Frameworks */,
 				84A4B9A9242CA4D500516F3B /* RealmSwift in Frameworks */,
 				84A4B9A7242CA4D500516F3B /* Realm in Frameworks */,
+				30EF95612434E07B007D61C7 /* RxAlamofire in Frameworks */,
 				8486BDCD242B9AC900A63DD5 /* RxCocoa in Frameworks */,
 				8486BDCB242B9AC900A63DD5 /* RxRelay in Frameworks */,
 				8486BDC7242B9AC900A63DD5 /* RxSwift in Frameworks */,
@@ -405,6 +406,7 @@
 				84A4B9A6242CA4D500516F3B /* Realm */,
 				84A4B9A8242CA4D500516F3B /* RealmSwift */,
 				4B7FB336242DF0F9002EDE0A /* Alamofire */,
+				30EF95602434E07B007D61C7 /* RxAlamofire */,
 			);
 			productName = CoEpi;
 			productReference = 849DFE622427D3750008ED65 /* CoEpi.app */;
@@ -486,6 +488,7 @@
 				8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				84A4B9A5242CA4D500516F3B /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				4B7FB335242DF0F9002EDE0A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				30EF955F2434E07B007D61C7 /* XCRemoteSwiftPackageReference "RxAlamofire" */,
 			);
 			productRefGroup = 849DFE632427D3750008ED65 /* Products */;
 			projectDirPath = "";
@@ -651,7 +654,6 @@
 				84A4B9A4242CA24100516F3B /* ContactRepo.swift in Sources */,
 				84A4B9BA242CE3AF00516F3B /* SymptomRepo.swift in Sources */,
 				849DFE662427D3750008ED65 /* AppDelegate.swift in Sources */,
-				4B7FB339242DF767002EDE0A /* NetworkManager.swift in Sources */,
 				84BF97222427FCFE001ADD6B /* OnboardingViewModel.swift in Sources */,
 				84BF972F24281082001ADD6B /* Central.swift in Sources */,
 				84BF972D24281082001ADD6B /* Peripheral.swift in Sources */,
@@ -1018,20 +1020,28 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		30EF955F2434E07B007D61C7 /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 		4B7FB335242DF0F9002EDE0A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.5;
+				kind = exactVersion;
+				version = 4.8.2;
 			};
 		};
 		8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.1;
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
 		84A4B9A5242CA4D500516F3B /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
@@ -1053,6 +1063,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		30EF95602434E07B007D61C7 /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30EF955F2434E07B007D61C7 /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
+		};
 		4B7FB336242DF0F9002EDE0A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4B7FB335242DF0F9002EDE0A /* XCRemoteSwiftPackageReference "Alamofire" */;
