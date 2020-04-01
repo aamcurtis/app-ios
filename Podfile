@@ -6,8 +6,6 @@ target 'CoEpi' do
   use_frameworks!
   pod 'AppCenter/Distribute'
   pod 'RxAlamofire'
-  pod 'Alamofire'
-  pod 'RxSwift'
 
   # Pods for CoEpi
 
