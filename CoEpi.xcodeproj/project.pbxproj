@@ -11,14 +11,14 @@
 		30EF94F8242C47A2007D61C7 /* HealthQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EF94F6242C47A1007D61C7 /* HealthQuizViewController.xib */; };
 		30EF94FB242CFC9F007D61C7 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF94F9242CFC9F007D61C7 /* AlertsViewController.swift */; };
 		30EF94FC242CFC9F007D61C7 /* AlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EF94FA242CFC9F007D61C7 /* AlertsViewController.xib */; };
-		4B7FB337242DF0F9002EDE0A /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7FB336242DF0F9002EDE0A /* SwiftPackageProductDependency */; };
+		4B7FB337242DF0F9002EDE0A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7FB336242DF0F9002EDE0A /* Alamofire */; };
 		4B7FB339242DF767002EDE0A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB338242DF767002EDE0A /* NetworkManager.swift */; };
 		62B9A01A2433D2A200885519 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9A0192433D2A200885519 /* DateFormatter.swift */; };
 		62B9A01F2434036A00885519 /* DebugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486BDD5242BA28C00A63DD5 /* DebugViewModel.swift */; };
-		8486BDC7242B9AC900A63DD5 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDC6242B9AC900A63DD5 /* SwiftPackageProductDependency */; };
-		8486BDCB242B9AC900A63DD5 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDCA242B9AC900A63DD5 /* SwiftPackageProductDependency */; };
-		8486BDCD242B9AC900A63DD5 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDCC242B9AC900A63DD5 /* SwiftPackageProductDependency */; };
-		8486BDCF242B9AC900A63DD5 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDCE242B9AC900A63DD5 /* SwiftPackageProductDependency */; };
+		8486BDC7242B9AC900A63DD5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDC6242B9AC900A63DD5 /* RxSwift */; };
+		8486BDCB242B9AC900A63DD5 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDCA242B9AC900A63DD5 /* RxRelay */; };
+		8486BDCD242B9AC900A63DD5 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDCC242B9AC900A63DD5 /* RxCocoa */; };
+		8486BDCF242B9AC900A63DD5 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDCE242B9AC900A63DD5 /* RxBlocking */; };
 		8486BDD9242BBCE700A63DD5 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486BDD7242BBCE700A63DD5 /* DebugViewController.swift */; };
 		8486BDDA242BBCE700A63DD5 /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8486BDD8242BBCE700A63DD5 /* DebugViewController.xib */; };
 		8486BDE0242BC8B600A63DD5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486BDDF242BC8B600A63DD5 /* HomeViewModel.swift */; };
@@ -31,8 +31,8 @@
 		849DFE802427D37A0008ED65 /* CoEpiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DFE7F2427D37A0008ED65 /* CoEpiTests.swift */; };
 		849DFE8B2427D37A0008ED65 /* CoEpiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DFE8A2427D37A0008ED65 /* CoEpiUITests.swift */; };
 		84A4B9A4242CA24100516F3B /* ContactRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B9A3242CA24100516F3B /* ContactRepo.swift */; };
-		84A4B9A7242CA4D500516F3B /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 84A4B9A6242CA4D500516F3B /* SwiftPackageProductDependency */; };
-		84A4B9A9242CA4D500516F3B /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 84A4B9A8242CA4D500516F3B /* SwiftPackageProductDependency */; };
+		84A4B9A7242CA4D500516F3B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 84A4B9A6242CA4D500516F3B /* Realm */; };
+		84A4B9A9242CA4D500516F3B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84A4B9A8242CA4D500516F3B /* RealmSwift */; };
 		84A4B9AD242CA51D00516F3B /* RealmContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B9AC242CA51D00516F3B /* RealmContact.swift */; };
 		84A4B9AF242CA5E600516F3B /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B9AE242CA5E600516F3B /* RealmProvider.swift */; };
 		84A4B9B2242CA67E00516F3B /* RealmContactRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B9B1242CA67E00516F3B /* RealmContactRepo.swift */; };
@@ -50,7 +50,7 @@
 		84BF973024281082001ADD6B /* DataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF972A24281082001ADD6B /* DataRepresentable.swift */; };
 		84BF973124281082001ADD6B /* Types+DataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF972B24281082001ADD6B /* Types+DataRepresentable.swift */; };
 		84FA00F22427E13000318104 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA00F12427E13000318104 /* Dependencies.swift */; };
-		84FA00F52427E83000318104 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 84FA00F42427E83000318104 /* SwiftPackageProductDependency */; };
+		84FA00F52427E83000318104 /* Dip in Frameworks */ = {isa = PBXBuildFile; productRef = 84FA00F42427E83000318104 /* Dip */; };
 		84FA00FB2427ED1900318104 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA00F92427ED1900318104 /* OnboardingViewController.swift */; };
 		84FA00FC2427ED1900318104 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA00FA2427ED1900318104 /* OnboardingViewController.xib */; };
 		84FA01002427ED5E00318104 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA00FE2427ED5E00318104 /* HomeViewController.swift */; };
@@ -141,15 +141,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7FB337242DF0F9002EDE0A /* BuildFile in Frameworks */,
-				84A4B9A9242CA4D500516F3B /* BuildFile in Frameworks */,
-				84A4B9A7242CA4D500516F3B /* BuildFile in Frameworks */,
-				8486BDCD242B9AC900A63DD5 /* BuildFile in Frameworks */,
-				8486BDCB242B9AC900A63DD5 /* BuildFile in Frameworks */,
-				8486BDC7242B9AC900A63DD5 /* BuildFile in Frameworks */,
-				84FA00F52427E83000318104 /* BuildFile in Frameworks */,
+				4B7FB337242DF0F9002EDE0A /* Alamofire in Frameworks */,
+				84A4B9A9242CA4D500516F3B /* RealmSwift in Frameworks */,
+				84A4B9A7242CA4D500516F3B /* Realm in Frameworks */,
+				8486BDCD242B9AC900A63DD5 /* RxCocoa in Frameworks */,
+				8486BDCB242B9AC900A63DD5 /* RxRelay in Frameworks */,
+				8486BDC7242B9AC900A63DD5 /* RxSwift in Frameworks */,
+				84FA00F52427E83000318104 /* Dip in Frameworks */,
 				ED84885A0AB19A504317BA10 /* Pods_CoEpi.framework in Frameworks */,
-				8486BDCF242B9AC900A63DD5 /* BuildFile in Frameworks */,
+				8486BDCF242B9AC900A63DD5 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +390,6 @@
 				849DFE5F2427D3750008ED65 /* Frameworks */,
 				849DFE602427D3750008ED65 /* Resources */,
 				2E097DA9BAE3754C404F0526 /* [CP] Copy Pods Resources */,
-				4A605CB136300118C8FACB35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -398,14 +397,14 @@
 			);
 			name = CoEpi;
 			packageProductDependencies = (
-				84FA00F42427E83000318104 /* SwiftPackageProductDependency */,
-				8486BDC6242B9AC900A63DD5 /* SwiftPackageProductDependency */,
-				8486BDCA242B9AC900A63DD5 /* SwiftPackageProductDependency */,
-				8486BDCC242B9AC900A63DD5 /* SwiftPackageProductDependency */,
-				8486BDCE242B9AC900A63DD5 /* SwiftPackageProductDependency */,
-				84A4B9A6242CA4D500516F3B /* SwiftPackageProductDependency */,
-				84A4B9A8242CA4D500516F3B /* SwiftPackageProductDependency */,
-				4B7FB336242DF0F9002EDE0A /* SwiftPackageProductDependency */,
+				84FA00F42427E83000318104 /* Dip */,
+				8486BDC6242B9AC900A63DD5 /* RxSwift */,
+				8486BDCA242B9AC900A63DD5 /* RxRelay */,
+				8486BDCC242B9AC900A63DD5 /* RxCocoa */,
+				8486BDCE242B9AC900A63DD5 /* RxBlocking */,
+				84A4B9A6242CA4D500516F3B /* Realm */,
+				84A4B9A8242CA4D500516F3B /* RealmSwift */,
+				4B7FB336242DF0F9002EDE0A /* Alamofire */,
 			);
 			productName = CoEpi;
 			productReference = 849DFE622427D3750008ED65 /* CoEpi.app */;
@@ -439,7 +438,6 @@
 				849DFE832427D37A0008ED65 /* Frameworks */,
 				849DFE842427D37A0008ED65 /* Resources */,
 				2CD762F3D7053295F64E83ED /* [CP] Copy Pods Resources */,
-				70977A64FAE03643A2CC8E00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -484,10 +482,10 @@
 			);
 			mainGroup = 849DFE592427D3750008ED65;
 			packageReferences = (
-				84FA00F32427E83000318104 /* RemoteSwiftPackageReference */,
-				8486BDC5242B9AC900A63DD5 /* RemoteSwiftPackageReference */,
-				84A4B9A5242CA4D500516F3B /* RemoteSwiftPackageReference */,
-				4B7FB335242DF0F9002EDE0A /* RemoteSwiftPackageReference */,
+				84FA00F32427E83000318104 /* XCRemoteSwiftPackageReference "Dip" */,
+				8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				84A4B9A5242CA4D500516F3B /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				4B7FB335242DF0F9002EDE0A /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 849DFE632427D3750008ED65 /* Products */;
 			projectDirPath = "";
@@ -564,40 +562,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoEpi/Pods-CoEpi-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A605CB136300118C8FACB35 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoEpi/Pods-CoEpi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoEpi/Pods-CoEpi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoEpi/Pods-CoEpi-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70977A64FAE03643A2CC8E00 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoEpi-CoEpiUITests/Pods-CoEpi-CoEpiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoEpi-CoEpiUITests/Pods-CoEpi-CoEpiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoEpi-CoEpiUITests/Pods-CoEpi-CoEpiUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		787970C7C1EB5ED7195FBD12 /* [CP] Check Pods Manifest.lock */ = {
@@ -1054,7 +1018,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4B7FB335242DF0F9002EDE0A /* RemoteSwiftPackageReference */ = {
+		4B7FB335242DF0F9002EDE0A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1062,7 +1026,7 @@
 				minimumVersion = 5.0.5;
 			};
 		};
-		8486BDC5242B9AC900A63DD5 /* RemoteSwiftPackageReference */ = {
+		8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -1070,7 +1034,7 @@
 				minimumVersion = 5.1.1;
 			};
 		};
-		84A4B9A5242CA4D500516F3B /* RemoteSwiftPackageReference */ = {
+		84A4B9A5242CA4D500516F3B /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
 			requirement = {
@@ -1078,7 +1042,7 @@
 				minimumVersion = 4.3.2;
 			};
 		};
-		84FA00F32427E83000318104 /* RemoteSwiftPackageReference */ = {
+		84FA00F32427E83000318104 /* XCRemoteSwiftPackageReference "Dip" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AliSoftware/Dip";
 			requirement = {
@@ -1089,44 +1053,44 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4B7FB336242DF0F9002EDE0A /* SwiftPackageProductDependency */ = {
+		4B7FB336242DF0F9002EDE0A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4B7FB335242DF0F9002EDE0A /* RemoteSwiftPackageReference */;
+			package = 4B7FB335242DF0F9002EDE0A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		8486BDC6242B9AC900A63DD5 /* SwiftPackageProductDependency */ = {
+		8486BDC6242B9AC900A63DD5 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8486BDC5242B9AC900A63DD5 /* RemoteSwiftPackageReference */;
+			package = 8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		8486BDCA242B9AC900A63DD5 /* SwiftPackageProductDependency */ = {
+		8486BDCA242B9AC900A63DD5 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8486BDC5242B9AC900A63DD5 /* RemoteSwiftPackageReference */;
+			package = 8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		8486BDCC242B9AC900A63DD5 /* SwiftPackageProductDependency */ = {
+		8486BDCC242B9AC900A63DD5 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8486BDC5242B9AC900A63DD5 /* RemoteSwiftPackageReference */;
+			package = 8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		8486BDCE242B9AC900A63DD5 /* SwiftPackageProductDependency */ = {
+		8486BDCE242B9AC900A63DD5 /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8486BDC5242B9AC900A63DD5 /* RemoteSwiftPackageReference */;
+			package = 8486BDC5242B9AC900A63DD5 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxBlocking;
 		};
-		84A4B9A6242CA4D500516F3B /* SwiftPackageProductDependency */ = {
+		84A4B9A6242CA4D500516F3B /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 84A4B9A5242CA4D500516F3B /* RemoteSwiftPackageReference */;
+			package = 84A4B9A5242CA4D500516F3B /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = Realm;
 		};
-		84A4B9A8242CA4D500516F3B /* SwiftPackageProductDependency */ = {
+		84A4B9A8242CA4D500516F3B /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 84A4B9A5242CA4D500516F3B /* RemoteSwiftPackageReference */;
+			package = 84A4B9A5242CA4D500516F3B /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
 		};
-		84FA00F42427E83000318104 /* SwiftPackageProductDependency */ = {
+		84FA00F42427E83000318104 /* Dip */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 84FA00F32427E83000318104 /* RemoteSwiftPackageReference */;
+			package = 84FA00F32427E83000318104 /* XCRemoteSwiftPackageReference "Dip" */;
 			productName = Dip;
 		};
 /* End XCSwiftPackageProductDependency section */
