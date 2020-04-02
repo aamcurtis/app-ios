@@ -40,9 +40,14 @@ class DebugViewModelImpl: DebugViewModel {
             .map { peripheralState, peripheralContactSent, receivedContacts, discovered in
                 let peripheralState = peripheralState ?? ""
                 let peripheralContactSent = peripheralContactSent?.identifier.uuidString ?? "None"
+                let recentExposures = String(NetworkManager().getRecentExposures())
+                let symptomReport = "test" //String(NetworkManager().sendSymptomReport(symptoms: <#T##String#>, proximityEvents: <#T##[Contact]#>))
                 return [
                     .Header("Peripheral state"),
                     .Item(peripheralState),
+                    .Header("Network Tests"),
+                    .Item(recentExposures),
+                    .Item(symptomReport),
                     .Header("Contact sent"),
                     .Item(peripheralContactSent),
                     .Header("Received contacts")]

@@ -13,6 +13,7 @@
 		30EF94FC242CFC9F007D61C7 /* AlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EF94FA242CFC9F007D61C7 /* AlertsViewController.xib */; };
 		30EF95612434E07B007D61C7 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 30EF95602434E07B007D61C7 /* RxAlamofire */; };
 		4B7FB337242DF0F9002EDE0A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7FB336242DF0F9002EDE0A /* Alamofire */; };
+		6288051924359E850054A078 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB338242DF767002EDE0A /* NetworkManager.swift */; };
 		62B9A01A2433D2A200885519 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9A0192433D2A200885519 /* DateFormatter.swift */; };
 		62B9A01F2434036A00885519 /* DebugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486BDD5242BA28C00A63DD5 /* DebugViewModel.swift */; };
 		8486BDC7242B9AC900A63DD5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8486BDC6242B9AC900A63DD5 /* RxSwift */; };
@@ -658,6 +659,7 @@
 				84BF972F24281082001ADD6B /* Central.swift in Sources */,
 				84BF972D24281082001ADD6B /* Peripheral.swift in Sources */,
 				84BF972E24281082001ADD6B /* uuids.swift in Sources */,
+				6288051924359E850054A078 /* NetworkManager.swift in Sources */,
 				84BF973024281082001ADD6B /* DataRepresentable.swift in Sources */,
 				30EF94F7242C47A2007D61C7 /* HealthQuizViewController.swift in Sources */,
 				84BF972424280ABA001ADD6B /* RootWireframe.swift in Sources */,
