@@ -12,6 +12,8 @@
 		30EF94FB242CFC9F007D61C7 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF94F9242CFC9F007D61C7 /* AlertsViewController.swift */; };
 		30EF94FC242CFC9F007D61C7 /* AlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EF94FA242CFC9F007D61C7 /* AlertsViewController.xib */; };
 		30EF95612434E07B007D61C7 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 30EF95602434E07B007D61C7 /* RxAlamofire */; };
+		30EF956524360DC9007D61C7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB338242DF767002EDE0A /* NetworkManager.swift */; };
+		30EF956D24363115007D61C7 /* CoEpiNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF956C24363115007D61C7 /* CoEpiNetworkingTests.swift */; };
 		4B7FB337242DF0F9002EDE0A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7FB336242DF0F9002EDE0A /* Alamofire */; };
 		6288051924359E850054A078 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB338242DF767002EDE0A /* NetworkManager.swift */; };
 		62B9A01A2433D2A200885519 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9A0192433D2A200885519 /* DateFormatter.swift */; };
@@ -56,12 +58,20 @@
 		84FA00FC2427ED1900318104 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA00FA2427ED1900318104 /* OnboardingViewController.xib */; };
 		84FA01002427ED5E00318104 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA00FE2427ED5E00318104 /* HomeViewController.swift */; };
 		84FA01012427ED5E00318104 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA00FF2427ED5E00318104 /* HomeViewController.xib */; };
+		B8D966C74B8325F17A9EEF37 /* Pods_CoEpiNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88428D93C9233C223136D1B /* Pods_CoEpiNetworkingTests.framework */; };
 		CC71F7CAF64914F41BBE05C5 /* Pods_CoEpi_CoEpiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB30FDD8E48688E1BF91F91 /* Pods_CoEpi_CoEpiUITests.framework */; };
 		D7710CEB4F1D549EA29A856F /* Pods_CoEpiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B1FB101DD42773F3ADB2EC /* Pods_CoEpiTests.framework */; };
 		ED84885A0AB19A504317BA10 /* Pods_CoEpi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D98C7D6EAEBFA0E5292E3F /* Pods_CoEpi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		30EF9573243632E6007D61C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849DFE5A2427D3750008ED65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849DFE612427D3750008ED65;
+			remoteInfo = CoEpi;
+		};
 		849DFE7C2427D37A0008ED65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 849DFE5A2427D3750008ED65 /* Project object */;
@@ -79,12 +89,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E44CAE9F9B6871D9529B29 /* Pods-CoEpiNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoEpiNetworkingTests.debug.xcconfig"; path = "Target Support Files/Pods-CoEpiNetworkingTests/Pods-CoEpiNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		30EF94F5242C47A1007D61C7 /* HealthQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HealthQuizViewController.swift; path = home/HealthQuizViewController.swift; sourceTree = "<group>"; };
 		30EF94F6242C47A1007D61C7 /* HealthQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HealthQuizViewController.xib; path = home/HealthQuizViewController.xib; sourceTree = "<group>"; };
 		30EF94F9242CFC9F007D61C7 /* AlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertsViewController.swift; path = home/AlertsViewController.swift; sourceTree = "<group>"; };
 		30EF94FA242CFC9F007D61C7 /* AlertsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlertsViewController.xib; path = home/AlertsViewController.xib; sourceTree = "<group>"; };
+		30EF956A24363115007D61C7 /* CoEpiNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoEpiNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EF956C24363115007D61C7 /* CoEpiNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoEpiNetworkingTests.swift; sourceTree = "<group>"; };
+		30EF956E24363115007D61C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		324F4D7DC6C28946706D180E /* Pods-CoEpiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoEpiTests.release.xcconfig"; path = "Target Support Files/Pods-CoEpiTests/Pods-CoEpiTests.release.xcconfig"; sourceTree = "<group>"; };
 		3DB73EEFE0BAFE71BAB85604 /* Pods-CoEpi-CoEpiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoEpi-CoEpiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoEpi-CoEpiUITests/Pods-CoEpi-CoEpiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A8C33FD92971388B446839F /* Pods-CoEpiNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoEpiNetworkingTests.release.xcconfig"; path = "Target Support Files/Pods-CoEpiNetworkingTests/Pods-CoEpiNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
 		4AB30FDD8E48688E1BF91F91 /* Pods_CoEpi_CoEpiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoEpi_CoEpiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7FB338242DF767002EDE0A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4B7FB33D242ED38C002EDE0A /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = "/Users/hamishrodda/Documents/Apps/app-ios/CoEpi/network/DateFormatter.swift"; sourceTree = "<absolute>"; };
@@ -135,9 +150,18 @@
 		89B1FB101DD42773F3ADB2EC /* Pods_CoEpiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoEpiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		910DD69A29B6DF9226FCFECA /* Pods-CoEpiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoEpiTests.debug.xcconfig"; path = "Target Support Files/Pods-CoEpiTests/Pods-CoEpiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C12F75FF3B79C829E72E1CF6 /* Pods-CoEpi-CoEpiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoEpi-CoEpiUITests.release.xcconfig"; path = "Target Support Files/Pods-CoEpi-CoEpiUITests/Pods-CoEpi-CoEpiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F88428D93C9233C223136D1B /* Pods_CoEpiNetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoEpiNetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		30EF956724363115007D61C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D966C74B8325F17A9EEF37 /* Pods_CoEpiNetworkingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		849DFE5F2427D3750008ED65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +198,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30EF956B24363115007D61C7 /* CoEpiNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EF956C24363115007D61C7 /* CoEpiNetworkingTests.swift */,
+				30EF956E24363115007D61C7 /* Info.plist */,
+			);
+			path = CoEpiNetworkingTests;
+			sourceTree = "<group>";
+		};
 		44CF83504F0FD8582FEC242D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +216,8 @@
 				C12F75FF3B79C829E72E1CF6 /* Pods-CoEpi-CoEpiUITests.release.xcconfig */,
 				910DD69A29B6DF9226FCFECA /* Pods-CoEpiTests.debug.xcconfig */,
 				324F4D7DC6C28946706D180E /* Pods-CoEpiTests.release.xcconfig */,
+				01E44CAE9F9B6871D9529B29 /* Pods-CoEpiNetworkingTests.debug.xcconfig */,
+				4A8C33FD92971388B446839F /* Pods-CoEpiNetworkingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -213,6 +248,7 @@
 				849DFE642427D3750008ED65 /* CoEpi */,
 				849DFE7E2427D37A0008ED65 /* CoEpiTests */,
 				849DFE892427D37A0008ED65 /* CoEpiUITests */,
+				30EF956B24363115007D61C7 /* CoEpiNetworkingTests */,
 				849DFE632427D3750008ED65 /* Products */,
 				44CF83504F0FD8582FEC242D /* Pods */,
 				AED85EDBA1C7E0EA663C80E7 /* Frameworks */,
@@ -225,6 +261,7 @@
 				849DFE622427D3750008ED65 /* CoEpi.app */,
 				849DFE7B2427D37A0008ED65 /* CoEpiTests.xctest */,
 				849DFE862427D37A0008ED65 /* CoEpiUITests.xctest */,
+				30EF956A24363115007D61C7 /* CoEpiNetworkingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,6 +413,7 @@
 				83D98C7D6EAEBFA0E5292E3F /* Pods_CoEpi.framework */,
 				4AB30FDD8E48688E1BF91F91 /* Pods_CoEpi_CoEpiUITests.framework */,
 				89B1FB101DD42773F3ADB2EC /* Pods_CoEpiTests.framework */,
+				F88428D93C9233C223136D1B /* Pods_CoEpiNetworkingTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -383,6 +421,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		30EF956924363115007D61C7 /* CoEpiNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EF956F24363115007D61C7 /* Build configuration list for PBXNativeTarget "CoEpiNetworkingTests" */;
+			buildPhases = (
+				66E568ACCEC9DD63842FD922 /* [CP] Check Pods Manifest.lock */,
+				30EF956624363115007D61C7 /* Sources */,
+				30EF956724363115007D61C7 /* Frameworks */,
+				30EF956824363115007D61C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EF9574243632E6007D61C7 /* PBXTargetDependency */,
+			);
+			name = CoEpiNetworkingTests;
+			productName = CoEpiNetworkingTests;
+			productReference = 30EF956A24363115007D61C7 /* CoEpiNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		849DFE612427D3750008ED65 /* CoEpi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849DFE8F2427D37A0008ED65 /* Build configuration list for PBXNativeTarget "CoEpi" */;
@@ -462,6 +519,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = org.coepi;
 				TargetAttributes = {
+					30EF956924363115007D61C7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 849DFE612427D3750008ED65;
+					};
 					849DFE612427D3750008ED65 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -498,11 +559,19 @@
 				849DFE612427D3750008ED65 /* CoEpi */,
 				849DFE7A2427D37A0008ED65 /* CoEpiTests */,
 				849DFE852427D37A0008ED65 /* CoEpiUITests */,
+				30EF956924363115007D61C7 /* CoEpiNetworkingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		30EF956824363115007D61C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		849DFE602427D3750008ED65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,6 +635,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoEpi/Pods-CoEpi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E568ACCEC9DD63842FD922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoEpiNetworkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		787970C7C1EB5ED7195FBD12 /* [CP] Check Pods Manifest.lock */ = {
@@ -637,6 +728,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		30EF956624363115007D61C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EF956D24363115007D61C7 /* CoEpiNetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		849DFE5E2427D3750008ED65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -679,6 +778,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EF956524360DC9007D61C7 /* NetworkManager.swift in Sources */,
 				849DFE802427D37A0008ED65 /* CoEpiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,6 +794,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		30EF9574243632E6007D61C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849DFE612427D3750008ED65 /* CoEpi */;
+			targetProxy = 30EF9573243632E6007D61C7 /* PBXContainerItemProxy */;
+		};
 		849DFE7D2427D37A0008ED65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 849DFE612427D3750008ED65 /* CoEpi */;
@@ -718,6 +823,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		30EF957024363115007D61C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E44CAE9F9B6871D9529B29 /* Pods-CoEpiNetworkingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQAPAYXXBX;
+				INFOPLIST_FILE = CoEpiNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.coepi.CoEpiNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoEpi.app/CoEpi";
+			};
+			name = Debug;
+		};
+		30EF957124363115007D61C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8C33FD92971388B446839F /* Pods-CoEpiNetworkingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQAPAYXXBX;
+				INFOPLIST_FILE = CoEpiNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.coepi.CoEpiNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoEpi.app/CoEpi";
+			};
+			name = Release;
+		};
 		849DFE8D2427D37A0008ED65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -983,6 +1130,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30EF956F24363115007D61C7 /* Build configuration list for PBXNativeTarget "CoEpiNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EF957024363115007D61C7 /* Debug */,
+				30EF957124363115007D61C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		849DFE5D2427D3750008ED65 /* Build configuration list for PBXProject "CoEpi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
